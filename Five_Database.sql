@@ -10,7 +10,7 @@ CREATE TABLE birds (
 );
 
 INSERT INTO birds (common_name, habitat, average_lifespan, population_status)
-VALUES ('Bald Eagle', 'Forests near water', 20, 1);
+VALUES ('Philippine Eagle', 'Forests near water', 30, 1);
 
 
 CREATE TABLE toys (
@@ -21,7 +21,7 @@ CREATE TABLE toys (
 );
 
 INSERT INTO toys (toy_name, category, price)
-VALUES ('LEGO Classic Bricks', 'Building Blocks', 30);
+VALUES ('Hot Wheels', 'Cars', 129);
 
 
 CREATE TABLE movies (
@@ -32,7 +32,7 @@ CREATE TABLE movies (
 );
 
 INSERT INTO movies (title, genre, release_year)
-VALUES ('Inception', 'Science Fiction', 2010);
+VALUES ('Fast and Furious', 'Action', 2001);
 
 
 CREATE TABLE books (
@@ -44,7 +44,7 @@ CREATE TABLE books (
 );
 
 INSERT INTO books (title, author, genre, publication_year)
-VALUES ('To Kill a Mockingbird', 'Harper Lee', 'Fiction', 1960);
+VALUES ('Harry Potter', 'J.K Rowling', 'Fantasy', 2007);
 
 
 CREATE TABLE vehicles (
@@ -57,4 +57,5 @@ CREATE TABLE vehicles (
 );
 
 INSERT INTO vehicles (brand, model, vehicle_type, year, price)
-VALUES ('Toyota', 'Corolla Cross', 'SUV', 2023, 2500000);
+
+VALUES ('Toyota', 'Ativ', 'Sedan', 2026, 2500000);
